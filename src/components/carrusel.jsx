@@ -21,8 +21,10 @@ export default function Carousel() {
   };
 
   return (
-    <div className="relative w-full max-w-3xs mx-auto overflow-hidden 
-    border-4 border-gray-800 rounded-3xl shadow-xl bg-black p-4 my-10">
+    <div
+      className="relative w-full max-w-3xs mx-auto overflow-clip
+    border-4 border-gray-800 rounded-3xl shadow-xl bg-black p-4 my-10"
+    >
       {/* Contenedor de imágenes */}
       <div
         className="flex transition-transform duration-500"
