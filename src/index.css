@@ -42,3 +42,18 @@
     transform: translateX(-50%) translateY(-10px);
   }
 }
+
+/* Scroll  */
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 6 - 0.5rem * 12));
+  }
+}
+
+.animate-scroll{
+  animation: scroll 30s linear infinite;
+}
