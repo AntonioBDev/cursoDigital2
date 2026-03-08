@@ -57,3 +57,11 @@
 .animate-scroll{
   animation: scroll 30s linear infinite;
 }
+
+.bg-imagen{
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2)), url('../public/sinfondos.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:auto;
+  height: 500px;
+}

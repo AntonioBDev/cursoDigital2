@@ -4,6 +4,7 @@ import BotonPago from "../components/botonpago";
 import Aprendizaje from "../components/aprendizaje";
 import Resultados from "../components/resultados";
 import Testimonio from "../components/testimonio";
+import PathChoice from "../components/pathChoice";
 import PagoSeguro from "../components/pagoseguro";
 
 export default function LandingPage() {
@@ -67,6 +68,8 @@ export default function LandingPage() {
       <div className="container mx-auto px-6">
         <Testimonio />
       </div>
+
+      <PathChoice/>
 
       <div>
         <PagoSeguro />
