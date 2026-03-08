@@ -9,15 +9,15 @@ import PagoSeguro from "../components/pagoseguro";
 export default function LandingPage() {
   return (
     <section>
-      <header className="max-w-6xl mx-auto px-4">
-        <nav className="p-5 flex justify-between items-center luz-neon-borde fixed top-0 left-0 w-full bg-slate-950 opacity-98 z-10">
-          <img src="./public/logo.png" className="h-20" alt="" />
-        </nav>
+      <nav className="flex justify-center items-center luz-neon-borde  bg-slate-950">
+        <img src="/logo.png" className="h-30 m-0 p-0" alt="" />
+      </nav>
 
-        <section className=" from-purple-700 via-purple-800 to-purple-900 py-16 px-6 text-center mt-24">
+      <header className="max-w-6xl mx-auto px-4">
+        <section className="py-16 px-6 text-center mt-24 ">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight max-w-4xl mx-auto">
-            Domina <span className="text-purple-600"> Facebook Ads </span>  y escala tus ventas sin quemar tu presupuesto en
-            publicidad.
+            Domina <span className="text-purple-600"> Facebook Ads </span> y
+            escala tus ventas sin quemar tu presupuesto en publicidad.
           </h1>
           <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-slate-400">
             Aprende el método exacto para crear campañas de alto impacto,
@@ -29,7 +29,7 @@ export default function LandingPage() {
           <div className="relative mt-20 mb-10">
             <span className="flecha-animada">⬇</span>
             <video
-              autoplay
+              autoPlay
               muted
               controls
               poster="https://placehold.co/1280x720/E5E7EB/4B5563?text=Video+del+Curso"
@@ -54,7 +54,7 @@ export default function LandingPage() {
         <Carousel />
       </section>
 
-      <IdealCustomer/>
+      <IdealCustomer />
 
       <div className="container mx-auto px-6">
         <Aprendizaje />
@@ -65,7 +65,7 @@ export default function LandingPage() {
       </div>
 
       <div className="container mx-auto px-6">
-        <Testimonio/>
+        <Testimonio />
       </div>
 
       <div>
