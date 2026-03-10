@@ -2,7 +2,7 @@ import React from "react";
 
 export default function anuncio() {
   return (
-    <div className="grid md:grid-cols-2 pt-12">
+    <div className="grid md:grid-cols-2 pt-12 gap-4">
       <div className="mt-auto h-48 md:h-84 w-full overflow-hidden flex items-end">
         <img
           src="/sinfondo2.png"
