@@ -44,24 +44,53 @@
 }
 
 /* Scroll  */
-
-@keyframes scroll{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(calc(-250px * 6 - 0.5rem * 12));
-  }
-}
-
-.animate-scroll{
+.animate-scroll {
   animation: scroll 30s linear infinite;
 }
 
-.bg-imagen{
-  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2)), url('../public/sinfondos.png');
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6 - 0.5rem * 12));
+  }
+}
+/* Anuncio bg */
+.bg-imagen {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url("/public/resultados.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size:auto;
-  height: 500px;
+  background-size: cover;
+  height: 700px;
+}
+
+/* Seccion de resultados */
+.img--lineGradient {
+  mask-image: linear-gradient(black 50%, transparent);
+}
+
+/* testimonio */
+/* Color de las flechas */
+.splide__arrow svg {
+  fill: #d4af37; /* Color Oro */
+}
+
+/* Fondo de los botones al pasar el mouse */
+.splide__arrow:hover {
+  background-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Hacer que los botones estén un poco más afuera del contenido */
+.splide__arrow--prev {
+  left: -2rem;
+}
+.splide__arrow--next {
+  right: -2rem;
+}
+
+@media (max-width: 768px) {
+  .splide__arrow { display: none; } /* Ocultar flechas en móvil, usar el dedo */
 }

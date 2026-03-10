@@ -8,6 +8,7 @@ import FutureLife from "../components/futureLifestyle";
 import Anuncio from "../components/anuncio";
 import PathChoice from "../components/pathChoice";
 import PagoSeguro from "../components/pagoseguro";
+import Footer from "./footer";
 
 export default function LandingPage() {
   return (
@@ -16,7 +17,7 @@ export default function LandingPage() {
         <img src="/logo.png" className="h-30 m-0 p-0" alt="" />
       </nav>
 
-      <header className="max-w-6xl mx-auto px-4">
+      <header className="container mx-auto px-6">
         <section className="py-16 px-6 text-center mt-24 ">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight max-w-4xl mx-auto">
             Domina <span className="text-purple-600"> Facebook Ads </span> y
@@ -49,24 +50,17 @@ export default function LandingPage() {
         </section>
       </header>
 
-      {/* Desactivado */}
-      <section className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-extrabold leading-tight max-w-4xl mx-auto text-center">
-          Lo que dicen nuestros estudiantes mientras escalan sus negocios
-        </h2>
-        <Carousel />
-      </section>
+        <Carousel/>
 
-      <div className="container mx-auto px-6">
-        <IdealCustomer />
-        <FutureLife/>
-        <Aprendizaje />
-        <Resultados />
-        <Testimonio />
-        <Anuncio/>
-        <PathChoice />
-        <PagoSeguro />
-      </div>
+      <IdealCustomer />
+      <FutureLife />
+      <Aprendizaje />
+      <Resultados />
+      <Testimonio />
+      <Anuncio />
+      <PathChoice />
+      {/* <PagoSeguro /> */}
+      <Footer/>
     </section>
   );
 }

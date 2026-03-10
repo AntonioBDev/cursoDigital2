@@ -2,10 +2,10 @@ import React from "react";
 
 export default function anuncio() {
   return (
-    <div className="relative">
+    <div className="container mx-auto px-6 relative">
       <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-64 h-64 bg-purple-600/20 blur-[100px] rounded-full"></div>
 
-      <div className="grid lg:grid-cols-2 gap-10 items-center md:p-10 my-20">
+      <div className="grid lg:grid-cols-2 gap-10 items-center md:p-10 my-10">
         <div className="flex items-center justify-center w-full">
           <img
             src="/sinfondo2.png"
@@ -17,9 +17,9 @@ export default function anuncio() {
 
         <div className="p-4 text-center lg:text-left">
           <p className="uppercase text-3xl md:text-5xl leading-tight">
-            ¡Recuerda con{" "}
+            ¡Recuerda con
             <span className="text-purple-500 font-bold">AURA</span>, solo estás
-            a un Activo extranjero viral de{" "}
+            a un Activo extranjero viral de
             <span className="font-extrabold underline decoration-purple-500 underline-offset-8">
               cambiar tu vida
             </span>

@@ -37,8 +37,7 @@ export default function Aprendizaje() {
   ];
 
   return (
-    <section className="w-full py-12">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+    <section className="container mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-10">
           Lo que aprenderás en el curso
         </h2>
@@ -56,7 +55,6 @@ export default function Aprendizaje() {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 }
