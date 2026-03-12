@@ -2,6 +2,7 @@ import React from "react";
 
 export default function anuncio() {
   return (
+    //
     <div className="container mx-auto px-6 relative">
       <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-64 h-64 bg-purple-600/20 blur-[100px] rounded-full"></div>
 
@@ -18,17 +19,17 @@ export default function anuncio() {
         <div className="p-4 text-center lg:text-left">
           <p className="uppercase text-3xl md:text-5xl leading-tight">
             ¡Recuerda con
-            <span className="text-purple-500 font-bold">AURA</span>, solo estás
-            a un Activo extranjero viral de
+            <span className="text-purple-500 font-bold"> OnlineUmbral</span>,
+            solo estás a una Aplicación Escalable de{" "}
             <span className="font-extrabold underline decoration-purple-500 underline-offset-8">
               cambiar tu vida
             </span>
             !
           </p>
           <p className="text-lg md:text-xl text-slate-400 pt-6">
-            Deja de perseguir clientes y empieza a atraerlos. Con nuestra
-            metodología, configurarás activos que trabajan por ti las 24 horas
-            del día.
+            Deja de vender tu tiempo y empieza a programar tu libertad. Aprende
+            a desplegar activos digitales que funcionan en piloto automático las
+            24 horas del día.
           </p>
         </div>
       </div>

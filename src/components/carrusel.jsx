@@ -15,10 +15,12 @@ const carruselImg = [...images, ...images];
 
 export default function carrusel() {
   return (
-    <section className="">
-      <h2 className="text-3xl md:text-4xl font-extrabold leading-tight max-w-4xl mx-auto text-center">
-        Lo que dicen nuestros estudiantes mientras escalan sus negocios
+    <section className="py-10 my-12 text-center">
+      <div className="container mx-auto px-6">
+      <h2 className="text-3xl md:text-4xl font-extrabold leading-tight max-w-4xl mx-auto  mb-10">
+        Lo que dicen nuestros estudiantes
       </h2>
+      </div>
       <div className="overflow-hidden">
         <div className="flex whitespace-nowrap animate-scroll">
           {carruselImg.map((src, i) => (

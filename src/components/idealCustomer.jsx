@@ -3,7 +3,8 @@ import React from "react";
 export default function idealCustomer() {
   return (
     <main className="container mx-auto px-6">
-      <h2 className="mt-10 mb-5  uppercase text-3xl md:text-4xl font-extrabold text-center ">
+      <div className="py-10 my-12 text-center">
+      <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center ">
         ¿Para quien es esto?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-w-7xl mx-auto">
@@ -51,6 +52,7 @@ export default function idealCustomer() {
             Aperiam, ipsum. Aliquam.
           </p>
         </div>
+      </div>
       </div>
     </main>
   );

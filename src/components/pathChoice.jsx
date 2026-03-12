@@ -4,7 +4,7 @@ export default function pathChoice() {
   return (
     <section className="py-24 bg-slate-950 text-white">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+        <h2 className="mt-10 mb-10 text-3xl md:text-4xl font-extrabold text-center">
           Ahora tienes <span className="text-purple-500">dos caminos</span>...
         </h2>
 
@@ -43,7 +43,7 @@ export default function pathChoice() {
                 <span className="text-green-500">Opción 1:</span> Entrar al
                 Masterclass
               </h3>
-              <ul className="space-y-3 text-slate-200">
+              <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
                 <li>✅ Dominar la segmentación avanzada en Facebook Ads.</li>
                 <li>
                   ✅ Crear un sistema de ventas que funcione en automático.

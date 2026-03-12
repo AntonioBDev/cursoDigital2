@@ -18,7 +18,7 @@ export default function LandingPage() {
       </nav>
 
       <header className="container mx-auto px-6">
-        <section className="py-16 px-6 text-center mt-24 ">
+        <section className="py-16 px-6 text-center mt-24">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight max-w-4xl mx-auto">
             Domina <span className="text-purple-600"> Facebook Ads </span> y
             escala tus ventas sin quemar tu presupuesto en publicidad.

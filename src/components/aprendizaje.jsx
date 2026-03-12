@@ -37,24 +37,26 @@ export default function Aprendizaje() {
   ];
 
   return (
-    <section className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-10">
+    <section className="container mx-auto px-6">
+      <div className="py-10 my-12 text-center">
+        <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center">
           Lo que aprenderás en el curso
         </h2>
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 px-6 max-w-7xl mx-auto items-center">
           {temas.map((tema, i) => (
             <div
               key={i}
-              className="bg-gray-800 rounded-xl shadow-md p-6 hover:shadow-lg transition"
+              className="bg-gray-800 rounded-xl shadow-md p-4 "
             >
               {tema.icono}
-              <h3 className="text-lg font-semibold text-gray-50 mb-2">
+              <h3 className="capitalize text-2xl md:text-3xl font-extrabold">
                 {tema.titulo}
               </h3>
-              <p className="text-gray-100 text-sm">{tema.descripcion}</p>
+              <p className="text-lg md:text-xl text-slate-400 pt-4">{tema.descripcion}</p>
             </div>
           ))}
         </div>
+      </div>
     </section>
   );
 }

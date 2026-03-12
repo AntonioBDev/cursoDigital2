@@ -7,7 +7,6 @@ import "@splidejs/react-splide/css";
 
 const videoUrls = [
   "/b104.mp4",
-  "https://www.w3schools.com/html/mov_bbb.mp4",
   "https://www.w3schools.com/html/movie.mp4",
   "/b99.mp4",
   "https://www.w3schools.com/html/mov_bbb.mp4",
@@ -16,8 +15,8 @@ const videoUrls = [
 
 export default function Carrusel() {
   return (
-    <section className="py-12">
-      <h2 className="text-3xl md:text-4xl font-extrabold text-white text-center mb-10 px-4">
+    <section className="container mx-auto px-6 py-10 my-12 max-w-7xl">
+      <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center ">
         Lo que dicen nuestros estudiantes mientras escalan sus negocios
       </h2>
 
