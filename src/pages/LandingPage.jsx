@@ -35,8 +35,10 @@ export default function LandingPage() {
             ">⬇</span>
             <video
               autoPlay
+              loop
               muted
               controls
+              controlsList="nodownload"
               poster="https://placehold.co/1280x720/E5E7EB/4B5563?text=Video+del+Curso"
               className="mx-auto w-screen rounded-lg shadow-[0_0_20px_rgba(82,9,154,0.8)]"
             >
