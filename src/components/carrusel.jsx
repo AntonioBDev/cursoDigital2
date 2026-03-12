@@ -3,12 +3,12 @@ import Card from "./card";
 import React from "react";
 
 const images = [
-  "./src/assets/t1.jpg",
-  "./src/assets/t2.jpg",
-  "./src/assets/t3.jpg",
-  "./src/assets/t2.jpg",
-  "./src/assets/t1.jpg",
-  "./src/assets/t3.jpg",
+  "./tprueba1.png",
+  "./tprueba2.png",
+  "./tprueba3.png",
+  "./tprueba2.png",
+  "./tprueba1.png",
+  "./tprueba3.png",
 ];
 
 const carruselImg = [...images, ...images];
