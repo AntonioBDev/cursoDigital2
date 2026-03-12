@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
 .luz-neon-borde {
   box-shadow: 0 4px 20px rgba(82, 9, 154, 1); /* glow rosa debajo */
   animation: neonPulse 2s ease-in-out infinite;
@@ -23,13 +28,15 @@
   }
 }
 
+
+/* En el header */
 .flecha-animada {
   position: absolute;
   top: -50px; /* encima del video */
   left: 50%;
   transform: translateX(-50%);
   font-size: 2rem;
-  color: #bd0c0c;
+  /* color: #bd500c; */
   animation: bounce 1.5s infinite;
   text-shadow: 0 0 10px rgba(82, 9, 154, 0.9);
 }
@@ -92,5 +99,7 @@
 }
 
 @media (max-width: 768px) {
-  .splide__arrow { display: none; } /* Ocultar flechas en móvil, usar el dedo */
+  .splide__arrow {
+    display: none;
+  } /* Ocultar flechas en móvil, usar el dedo */
 }

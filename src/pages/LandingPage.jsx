@@ -31,7 +31,8 @@ export default function LandingPage() {
           </p>
 
           <div className="relative mt-20 mb-10">
-            <span className="flecha-animada">⬇</span>
+            <span className="flecha-animada text-purple-600
+            ">⬇</span>
             <video
               autoPlay
               muted
