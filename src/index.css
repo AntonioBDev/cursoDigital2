@@ -63,6 +63,7 @@ body {
     transform: translateX(calc(-250px * 6 - 0.5rem * 12));
   }
 }
+
 /* Anuncio bg */
 .bg-imagen {
   background-image:

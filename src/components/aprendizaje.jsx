@@ -46,10 +46,10 @@ export default function Aprendizaje() {
           {temas.map((tema, i) => (
             <div
               key={i}
-              className="bg-gray-800 rounded-xl shadow-md p-4 "
+              className="bg-purple-900/20 rounded-xl shadow-md p-4 border-purple-500 border-2"
             >
               {tema.icono}
-              <h3 className="capitalize text-2xl md:text-3xl font-extrabold">
+              <h3 className="capitalize text-2xl md:text-3xl font-bold">
                 {tema.titulo}
               </h3>
               <p className="text-lg md:text-xl text-slate-400 pt-4">{tema.descripcion}</p>
