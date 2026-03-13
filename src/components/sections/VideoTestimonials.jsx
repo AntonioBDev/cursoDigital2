@@ -1,6 +1,6 @@
 import React from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import Tarjeta from "./tarjeta";
+import Tarjeta from "../notes/Tarjet";
 
 // Importar estilos de Splide
 import "@splidejs/react-splide/css";

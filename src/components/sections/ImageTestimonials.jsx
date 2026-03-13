@@ -1,5 +1,5 @@
 // import { useState, useEffect } from "react";
-import Card from "./card";
+import Card from "../notes/Card";
 import React from "react";
 
 const images = [
