@@ -13,20 +13,15 @@ export default function pathChoice() {
           <div className="pt-8 px-8 bg-slate-900 border border-slate-700 rounded-3xl overflow-hidden h-full flex flex-col justify-between">
             <div className="pb-6">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 border-b pb-4">
-                <span className="text-red-500">Opción 1:</span> No hacer nada
+                <span className="text-red-500">Opción 1:</span> Seguir intentando generar ingresos sin un sistema claro…
               </h3>
               <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
-                <li>❌ Seguir perdiendo dinero en anuncios que no venden.</li>
-                <li>
-                  ❌ Continuar con la frustración de no entender el Business
-                  Manager.
-                </li>
-                <li>❌ Ver cómo tu competencia se queda con tus clientes.</li>
+                <li>❌ Publicar contenido sin estrategia, probar cosas al azar y esperar resultados que nunca llegan.</li>
               </ul>
             </div>
             <div className="mt-auto h-48 md:h-84 w-full overflow-hidden flex items-end">
               <img
-                src="/sinfondos.png"
+                src="./sinGanancias.png"
                 alt="Resultado negativo"
                 className="w-full h-full object-contain object-bottom transition-transform duration-500 group-hover:scale-105"
               />
@@ -40,22 +35,16 @@ export default function pathChoice() {
             </div>
             <div className="pb-6">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 border-b pb-4">
-                <span className="text-green-500">Opción 1:</span> Entrar al
-                Masterclass
+                <span className="text-green-500">Opción 2:</span> Aprender a generar ventas online utilizando infoproductos, anuncios en Facebook y WhatsApp Business.
+
               </h3>
               <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
-                <li>✅ Dominar la segmentación avanzada en Facebook Ads.</li>
-                <li>
-                  ✅ Crear un sistema de ventas que funcione en automático.
-                </li>
-                <li>
-                  ✅ Escalar tus ingresos y recuperar tu libertad de tiempo.
-                </li>
+                <li>✅ Un sistema simple donde los anuncios atraen personas interesadas y las conversaciones se convierten en ventas.</li>
               </ul>
             </div>
             <div className="mt-auto h-48 md:h-84 w-full overflow-hidden flex items-end">
               <img
-                src="/sinfondo2.png"
+                src="./Ganancias.png"
                 alt="Resultado positivo"
                 className="w-full h-full object-contain object-bottom transition-transform duration-500 group-hover:scale-105"
               />

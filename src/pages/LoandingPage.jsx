@@ -39,7 +39,8 @@ export default function LandingPage() {
           <Button />
         </motion.div>
       </div>
-
+      <PathChoice />
+       
       <ImageTestimonials />
       <IdealCustomer />
       <FutureLife />
@@ -47,7 +48,7 @@ export default function LandingPage() {
       <Outcome />
       <VideoTestimonials />
       <Highlight />
-      <PathChoice />
+      {/* <PathChoice /> */}
       <Footer />
     </section>
   );
