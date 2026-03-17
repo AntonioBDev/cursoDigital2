@@ -18,7 +18,7 @@ export default function idealCustomer() {
             </h3>
           </div>
           <p className="text-lg md:text-xl text-slate-300 pt-4">
-           Personas que quieran posicionarse en redes sociales desde cero, aprendiendo a crear campañas con 0 experiencia y usar estas habilidades para vender cualquier producto o servicio.
+           Personas que quieran <span className="text-slate-100 font-extrabold">posicionarse en redes sociales</span> desde cero, <span className="text-slate-100 font-extrabold">aprendiendo a crear campañas</span> con 0 experiencia y usar estas habilidades para vender cualquier producto o servicio.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function idealCustomer() {
               Quieres hacer mas dinero
             </h3>
           </div>
-          <p className="text-lg md:text-xl text-slate-400 pt-4">
+          <p className="text-lg md:text-xl text-slate-300 pt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
             veritatis nobis ab molestias dolorem aut deserunt alias temporibus
             quibusdam totam autem fuga aspernatur facilis dicta, pariatur omnis!
@@ -44,7 +44,7 @@ export default function idealCustomer() {
               Afiliados
             </h3>
           </div>
-          <p className="text-lg md:text-xl text-slate-400 pt-4">
+          <p className="text-lg md:text-xl text-slate-300 pt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
             veritatis nobis ab molestias dolorem aut deserunt alias temporibus
             quibusdam totam autem fuga aspernatur facilis dicta, pariatur omnis!
