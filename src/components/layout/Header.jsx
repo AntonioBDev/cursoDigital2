@@ -2,9 +2,9 @@ import React from "react";
 
 export default function header() {
   return (
-    <header className="container mx-auto px-0">
-      <section className="py-0 px-6 text-center mt-24">
-        <p className="my-6 text-sm font-bold md:text-xl max-w-3xl mx-auto text-slate-400">
+    <header className="container mx-auto p-5">
+      <section className="text-center z-10">
+        <p className="my-6 text-sm font-bold md:text-xl max-w-3xl mx-auto text-slate-400 ">
            ¡FINALMENTE! El método para quienes quieren empezar a generar ingresos
           por internet.
         </p>
@@ -21,15 +21,6 @@ export default function header() {
           No necesitas experiencia previa. Cualquier persona puede comenzar
           desde cero siguiendo el método paso a paso.
         </p>
-
-        <div className="relative mt-20 mb-10">
-          <span
-            className="flecha-animada text-purple-600
-            "
-          >
-            ⬇
-          </span>
-        </div>
       </section>
     </header>
   );

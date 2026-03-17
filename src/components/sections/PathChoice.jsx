@@ -27,7 +27,7 @@ export default function pathChoice() {
               <img
                 src="./sinGanancias.png"
                 alt="Resultado negativo"
-                className="w-full max-w-[90%] h-auto object-contain translate-y-[30%] transition-transform duration-500 group-hover:translate-y-[5%] group-hover:scale-105"
+                className="w-full max-w-[90%] h-auto object-contain  transition-transform duration-500 "
               />
             </div>
             <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-20 rounded-b-3xl"></div>
@@ -53,7 +53,7 @@ export default function pathChoice() {
               <img
                 src="./Ganancias.png"
                 alt="Resultado positivo"
-                className="w-full max-w-[90%] h-auto object-contain translate-y-[30%] transition-transform duration-500 group-hover:translate-y-[5%] group-hover:scale-105"
+                className="w-full max-w-[90%] h-auto object-contain  transition-transform duration-500"
               />
             </div>
             <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-20 rounded-b-3xl"></div>

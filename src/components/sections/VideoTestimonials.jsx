@@ -15,12 +15,12 @@ const videoUrls = [
 
 export default function Carrusel() {
   return (
-    <section className="container mx-auto px-6 py-10 my-12 max-w-7xl">
-      <h2 className="mt-2 mb-10 text-3xl md:text-4xl font-extrabold text-center uppercase">
+    <section className="container mx-auto px-5 my-10 max-w-3xl">
+      <h2 className=" text-3xl md:text-4xl font-extrabold text-center uppercase">
         ¿Si estas personas pudieron, <span className="text-degradient italic">por qué tú no</span> ?
       </h2>
 
-      <div className="px-4">
+      <div className="">
         <Splide
           options={{
             type: "loop",         // Infinito
