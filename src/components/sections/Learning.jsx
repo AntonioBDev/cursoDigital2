@@ -42,12 +42,13 @@ export default function Aprendizaje() {
         <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center">
           Lo que aprenderás en el curso
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 px-6 max-w-7xl mx-auto items-center">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 px-6 max-w-7xl mx-auto ">
           {temas.map((tema, i) => (
             <div
               key={i}
-              className="bg-purple-900/20 rounded-xl shadow-md p-4 border-purple-500 border-2"
+              className="bg-slate-900/40  rounded-3xl p-8 border-slate-800 hover:border-purple-500/50  transition-all duration-300 shadow-xl border group relative"
             >
+               <div className="absolute inset-0 bg-gradient-to-br from-purple-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl" />
               {tema.icono}
               <h3 className="capitalize text-2xl md:text-3xl font-bold">
                 {tema.titulo}

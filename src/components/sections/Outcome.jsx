@@ -1,11 +1,12 @@
 export default function Resultados() {
   return (
-    <div className="container mx-auto px-6">
+    <div className="container mx-auto px-6 relative">
+      <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-[60%] bg-purple-600/20 blur-[100px] rounded-full -z-10"></div>
       <div className="grid md:grid-cols-2 gap-8 px-6 max-w-7xl mx-auto items-center py-10 my-12">
         {/* Imagen atractiva */}
         <div className="flex justify-center items-center overflow-hidden">
           <img
-            src="/resultados.png"
+            src="/results.png"
             alt="Resultados del curso"
             className="w-full rounded-2xl shadow-lg  h-80 object-cover img--lineGradient"
           />

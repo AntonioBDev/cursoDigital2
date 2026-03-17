@@ -28,7 +28,6 @@ body {
   }
 }
 
-
 /* En el header */
 .flecha-animada {
   position: absolute;
@@ -52,7 +51,7 @@ body {
 
 /* Scroll  */
 .animate-scroll {
-  animation: scroll 30s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 
 @keyframes scroll {
@@ -68,7 +67,7 @@ body {
 .bg-imagen {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-    url("/public/resultados.png");
+    url("/public/results.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -104,3 +103,36 @@ body {
     display: none;
   } /* Ocultar flechas en móvil, usar el dedo */
 }
+
+/* texto de colores  */
+.text-degradient {
+  background-image: linear-gradient(to left, #057af7, #9810fa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Utilizado en botones */
+.bg {
+  background-image: linear-gradient(to right, #0462c7bf, #9810fa);
+}
+
+.bg-borde {
+  background: 
+    linear-gradient(#0f172a, #0f172a) padding-box, /* Color de fondo interno */
+    linear-gradient(to right, #0462c7bf, #9810fa) border-box; /* El degradado */
+}
+
+.text-decoration{
+   background: 
+    linear-gradient(#0f172a, #0f172a) padding-box, /* Color de fondo interno */
+    linear-gradient(to right, #0462c7bf, #9810fa) border-box; /* El degradado */
+}
+
+.subrayado-marker {
+  background-image: linear-gradient(to right, #0462c7bf, #9810fa);
+  background-repeat: no-repeat;
+  background-size: 100% 5%; /* 100% de ancho, 30% de alto */
+  background-position: 0% 95%; /* Posicionado al final del texto */
+  padding: 5px 4px;
+}
+

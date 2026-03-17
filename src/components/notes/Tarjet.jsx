@@ -20,7 +20,7 @@ const Card = ({ src }) => { // Recuerda: Nombre en mayúscula
         <video 
           controls 
           muted 
-          onPlay={handlePlay} // <--- Aquí sucede la magia
+          onPlay={handlePlay}
           className="w-full h-full object-cover"
         >
           <source src={src} type="video/mp4" />

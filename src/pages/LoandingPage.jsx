@@ -13,6 +13,7 @@ import VideoTestimonials from "../components/sections/VideoTestimonials";
 import FutureLife from "../components/sections/FutureLifestyle";
 import Highlight from "../components/notes/Highlight";
 import PathChoice from "../components/sections/PathChoice";
+import Global from "../components/sections/GlobalScope";
 //UI / Comunes
 import Video from "../components/common/Video";
 import Button from "../components/common/Button";
@@ -39,15 +40,15 @@ export default function LandingPage() {
           <Button />
         </motion.div>
       </div>
-      <PathChoice />
-       
       <ImageTestimonials />
+      <PathChoice />
       <IdealCustomer />
       <FutureLife />
       <Learning />
+      <Highlight />
+      <Global />
       <Outcome />
       <VideoTestimonials />
-      <Highlight />
       {/* <PathChoice /> */}
       <Footer />
     </section>
