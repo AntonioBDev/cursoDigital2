@@ -28,26 +28,7 @@ body {
   }
 }
 
-/* En el header */
-.flecha-animada {
-  position: absolute;
-  top: -50px; /* encima del video */
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 2rem;
-  /* color: #bd500c; */
-  animation: bounce 1.5s infinite;
-  text-shadow: 0 0 10px rgba(82, 9, 154, 0.9);
-}
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateX(-50%) translateY(0);
-  }
-  50% {
-    transform: translateX(-50%) translateY(-10px);
-  }
-}
+
 
 /* Scroll  */
 .animate-scroll {

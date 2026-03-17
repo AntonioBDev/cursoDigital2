@@ -15,7 +15,7 @@ const Card = ({ src }) => { // Recuerda: Nombre en mayúscula
   };
 
   return (
-    <div className="my-4 mx-2 cursor-pointer flex-shrink-0 w-[160px] sm:w-[250px]">
+    <div className="my-4 mx-2 cursor-pointer flex-shrink-0 w-[220px] sm:w-[250px]">
       <div className="rounded-2xl overflow-hidden shadow-md video-container bg-black aspect-[9/16]">
         <video 
           controls 

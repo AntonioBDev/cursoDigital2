@@ -4,19 +4,21 @@ import Tarjeta from "../notes/Tarjet";
 
 // Importar estilos de Splide
 import "@splidejs/react-splide/css";
+import { video } from "motion/react-client";
 
 const videoUrls = [
-  "/b104.mp4",
   "https://www.w3schools.com/html/movie.mp4",
-  "/b99.mp4",
   "https://www.w3schools.com/html/mov_bbb.mp4",
-  "/b102.mp4",
+  "https://www.w3schools.com/html/movie.mp4",
+  "https://www.w3schools.com/html/mov_bbb.mp4",
+  "https://www.w3schools.com/html/movie.mp4",
+  "https://www.w3schools.com/html/mov_bbb.mp4",
 ];
 
 export default function Carrusel() {
   return (
-    <section className="container mx-auto px-5 my-10 max-w-3xl">
-      <h2 className=" text-3xl md:text-4xl font-extrabold text-center uppercase">
+    <section className="container mx-auto px-5 my-10 max-w-7xl">
+      <h2 className=" text-2xl md:text-3xl font-extrabold text-center uppercase">
         ¿Si estas personas pudieron, <span className="text-degradient italic">por qué tú no</span> ?
       </h2>
 
