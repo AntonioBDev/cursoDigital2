@@ -2,9 +2,9 @@ import React from "react";
 
 export default function pathChoice() {
   return (
-    <section className="py-24 bg-slate-950 text-white">
+    <section className="pt-5 bg-slate-950 text-white">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="mt-10 mb-10 text-3xl md:text-4xl font-extrabold text-center uppercase">
+        <h2 className="mt-2 mb-10 text-3xl md:text-4xl font-extrabold text-center uppercase">
           Ahora tienes <span className="text-degradient">dos caminos...</span>
         </h2>
 
@@ -40,9 +40,7 @@ export default function pathChoice() {
             </div>
             <div className="pb-6 z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 border-b pb-4">
-                <span className="text-green-500">Opción 2:</span> Aprender a
-                generar ventas online utilizando infoproductos, anuncios en
-                Facebook y WhatsApp Business.
+                <span className="text-green-500">Opción 2:</span> Aprende a generar ventas online con productos digitales de alta demanda en el mercado, aprovechando métodos que miles de personas ya están usando hoy.
               </h3>
               <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
                 <li>

@@ -16,8 +16,8 @@ const videoUrls = [
 export default function Carrusel() {
   return (
     <section className="container mx-auto px-6 py-10 my-12 max-w-7xl">
-      <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center ">
-        Lo que dicen nuestros estudiantes mientras escalan sus negocios
+      <h2 className="mt-2 mb-10 text-3xl md:text-4xl font-extrabold text-center uppercase">
+        ¿Si estas personas pudieron, <span className="text-degradient italic">por qué tú no</span> ?
       </h2>
 
       <div className="px-4">

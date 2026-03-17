@@ -21,11 +21,12 @@ import Button from "../components/common/Button";
 
 export default function LandingPage() {
   return (
-    <section>
+    <section className="m-0 p-0">
       <Navbar/>
       <Header/>
       <Video/>
 
+      {/* Animación del boton */}
       <div className="container mx-auto flex justify-center overflow-hidden">
         <motion.div
           initial={{ x: "-100vw", opacity: 0 }} // Empieza fuera a la izquierda (-100% del ancho de pantalla)
@@ -40,16 +41,32 @@ export default function LandingPage() {
           <Button />
         </motion.div>
       </div>
-      <ImageTestimonials />
-      <PathChoice />
-      <IdealCustomer />
-      <FutureLife />
-      <Learning />
-      <Highlight />
-      <Global />
-      <Outcome />
+
       <VideoTestimonials />
-      {/* <PathChoice /> */}
+      
+      {/* Para quien es */}
+      <IdealCustomer />
+
+      {/* Dos opciones */}
+      <PathChoice />
+
+      {/* Aprendizaje */}
+      <Learning />
+
+
+      <ImageTestimonials />
+
+
+      <FutureLife />
+
+
+      {/* Como puede cambiar tu vida */}
+      <Outcome />
+
+      <Global/>
+
+      {/* Anuncio */}
+      <Highlight />
       <Footer />
     </section>
   );

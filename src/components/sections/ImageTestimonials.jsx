@@ -14,8 +14,9 @@ const carruselImg = [...images, ...images];
 
 export default function carrusel() {
   return (
-    <section className="py-10 my-12 text-center relative">
-      <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-[90%] bg-purple-600/20 blur-[100px] rounded-full -z-10"></div>
+    <section className="pt-5 text-center relative">
+      <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-[90%] -z-10
+    bg-[radial-gradient(circle,_rgba(147,51,234,0.2)_0%,_transparent_70%)]"></div>
       <div className="container mx-auto px-6">
         <h2 className="my-6 text-lg md:text-xl text-slate-400 pt-4 uppercase">
           ¡Más de $500,000 pesos mexicanos invertidos!

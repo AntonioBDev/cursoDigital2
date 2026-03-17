@@ -10,7 +10,7 @@ export default function GlobalScope() {
       <div className="mt-12 max-w-2xl mx-auto">
         <p className="text-lg md:text-xl mb-6 font-bold">No importa si estás en...</p>
 
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center justify-center w-full opacity-60">
           <img
             src="/globalScope.jpeg"
             alt="Representación de Países"

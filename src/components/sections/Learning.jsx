@@ -37,20 +37,21 @@ export default function Aprendizaje() {
   ];
 
   return (
-    <section className="container mx-auto px-6">
-      <div className="py-10 my-12 text-center">
-        <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center">
-          Lo que aprenderás en el curso
+    <section className="container mx-auto pt-5">
+      <div className="py-10 text-center">
+        <h2 className="mt-2 mb-10    text-3xl md:text-4xl font-extrabold text-center">
+          Lo que <span className="text-degradient ">aprenderás</span> en el curso
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 px-6 max-w-7xl mx-auto ">
           {temas.map((tema, i) => (
             <div
               key={i}
-              className="bg-slate-900/40  rounded-3xl p-8 border-slate-800 hover:border-purple-500/50  transition-all duration-300 shadow-xl border group relative"
+              // bg-gradient-to-b from-gray-500 to-black 
+              className=" p-4 border  rounded-2xl bg-borde border-transparent hover:drop-shadow-[0_0_8px_rgba(168,85,247,1)]"
             >
-               <div className="absolute inset-0 bg-gradient-to-br from-purple-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl" />
+               {/* <div className="absolute inset-0 bg-gradient-to-br from-purple-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl" /> */}
               {tema.icono}
-              <h3 className="capitalize text-2xl md:text-3xl font-bold">
+              <h3 className="capitalize text-2xl md:text-3xl font-bold bg-borde border-transparent border-b-2 py-2">
                 {tema.titulo}
               </h3>
               <p className="text-lg md:text-xl text-slate-400 pt-4">{tema.descripcion}</p>
