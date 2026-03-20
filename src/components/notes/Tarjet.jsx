@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Card = ({ src }) => { // Recuerda: Nombre en mayúscula
   
   const handlePlay = (e) => {

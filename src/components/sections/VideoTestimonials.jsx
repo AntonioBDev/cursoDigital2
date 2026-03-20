@@ -28,11 +28,11 @@ export default function Carrusel() {
             type: "loop",         // Infinito
             perPage: 4,           // 4 videos en pantallas grandes
             gap: "1rem",          // Espacio entre tarjetas
-            autoplay: false,       // Se mueve solo
+            autoplay: true,       // Se mueve solo
             interval: 4000,       // Cada 4 segundos
             pauseOnHover: true,   // Se detiene si pones el mouse encima
             arrows: true,         // Activa tus flechas
-            pagination: false,    // Quita los puntos de abajo para que sea más limpio
+            pagination: true,    // Quita los puntos de abajo para que sea más limpio
             breakpoints: {
               1024: { perPage: 3 }, // 3 en tablet
               768: { perPage: 2 },  // 2 en móviles grandes

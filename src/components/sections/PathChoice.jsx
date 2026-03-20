@@ -35,7 +35,7 @@ export default function pathChoice() {
 
           {/* Opción B: Tomar el curso */}
           <div className="px-8 pt-8 bg-purple-900/20  border-purple-500 rounded-3xl relative h-full flex flex-col justify-between  border   group">
-            <div className="absolute top-0 right-0 bg-purple-500 text-xs font-bold px-3 py-1 rounded-bl-lg">
+            <div className="absolute top-0 right-0 bg-purple-500 text-xs font-bold px-3 py-1 rounded-bl-lg ">
               RECOMENDADO
             </div>
             <div className="pb-6 z-10">
