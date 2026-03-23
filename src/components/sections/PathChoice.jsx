@@ -2,8 +2,7 @@ import React from "react";
 
 export default function pathChoice() {
   return (
-    <section className="pt-5 bg-slate-950 text-white">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="container mx-auto px-5 my-10 max-w-7xl">
         <h2 className="mt-2 mb-10 text-3xl md:text-4xl font-extrabold text-center uppercase">
           Ahora tienes <span className="text-degradient">dos caminos...</span>
         </h2>
@@ -58,7 +57,6 @@ export default function pathChoice() {
             </div>
             <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-20 rounded-b-3xl"></div>
           </div>
-        </div>
       </div>
     </section>
   );

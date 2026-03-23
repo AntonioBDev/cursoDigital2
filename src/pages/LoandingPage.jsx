@@ -1,6 +1,6 @@
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 
-//Estructura 
+//Estructura
 import Navbar from "../components/layout/Navbar";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
@@ -14,36 +14,36 @@ import FutureLife from "../components/sections/FutureLifestyle";
 import Highlight from "../components/notes/Highlight";
 import PathChoice from "../components/sections/PathChoice";
 import Global from "../components/sections/GlobalScope";
+import Sticky from "../components/sections/StickyBar"
 //UI / Comunes
 import Video from "../components/common/Video";
 import Button from "../components/common/Button";
 
-
 export default function LandingPage() {
   return (
-    <section className="m-0 p-0">
-      <Navbar/>
-      <Header/>
-      <Video/>
+    <section className="m-0 p-0 relative">
+        <Navbar />
+        <Header />
+        <Video />
 
-      {/* Animación del boton */}
-      <div className="container mx-auto flex justify-center overflow-hidden">
-        <motion.div
-          initial={{ x: "-100vw", opacity: 0 }} // Empieza fuera a la izquierda (-100% del ancho de pantalla)
-          animate={{ x: 0, opacity: 1 }} // Llega a su posición original
-          transition={{
-            type: "spring", // Efecto de rebote (más natural)
-            stiffness: 100,
-            damping: 20,
-            duration: 0.9,
-          }}
-        >
-          <Button />
-        </motion.div>
-      </div>
+        {/* Animación del boton */}
+        <div className="container mx-auto flex justify-center overflow-hidden p-5">
+          <motion.div
+            initial={{ x: "-100vw", opacity: 0 }} // Empieza fuera a la izquierda (-100% del ancho de pantalla)
+            animate={{ x: 0, opacity: 1 }} // Llega a su posición original
+            transition={{
+              type: "spring", // Efecto de rebote (más natural)
+              stiffness: 100,
+              damping: 20,
+              duration: 0.9,
+            }}
+          >
+            <Button />
+          </motion.div>
+        </div>
 
       <VideoTestimonials />
-      
+
       {/* Para quien es */}
       <IdealCustomer />
 
@@ -53,20 +53,20 @@ export default function LandingPage() {
       {/* Aprendizaje */}
       <Learning />
 
-
+       <Sticky/>
+       
       <ImageTestimonials />
 
-
       <FutureLife />
-
 
       {/* Como puede cambiar tu vida */}
       <Outcome />
 
-      <Global/>
+      <Global />
 
       {/* Anuncio */}
       <Highlight />
+
       <Footer />
     </section>
   );

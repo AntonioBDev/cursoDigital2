@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function botonpago() {
   return (
-    <div className='m-8'>
+    <div className=''>
          <a
             onclick="return false;"
             target='_blank'

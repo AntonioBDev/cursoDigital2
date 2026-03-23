@@ -2,7 +2,7 @@ import React from "react";
 
 export default function header() {
   return (
-    <header className="container mx-auto p-5">
+    <header className="container mx-auto px-5 my-10 max-w-7xl">
       <section className="text-center z-10">
         <p className="my-6 text-sm font-bold md:text-xl max-w-3xl mx-auto text-slate-400 ">
            ¡FINALMENTE! El método para quienes quieren empezar a generar ingresos
