@@ -39,7 +39,7 @@ export default function Aprendizaje() {
   return (
     <section className="container mx-auto pt-5">
       <div className="py-10 text-center">
-        <h2 className="mt-2 mb-10    text-3xl md:text-4xl font-extrabold text-center">
+        <h2 className="mt-2 mb-10 text-2xl md:text-3xl font-extrabold text-center uppercase">
           Lo que <span className="text-degradient ">aprenderás</span> en el curso
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 px-6 max-w-7xl mx-auto ">

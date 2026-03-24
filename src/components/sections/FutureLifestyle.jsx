@@ -3,15 +3,13 @@ import React from "react";
 export default function anuncio() {
   return (
     <div className="container mx-auto pt-5 relative">
-       <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-[90%] -z-10
-    bg-[radial-gradient(circle,_rgba(147,51,234,0.2)_0%,_transparent_70%)]"></div>
 
       <div className="grid lg:grid-cols-2 gap-10 items-center md:p-10 my-10">
         <div className="flex items-center justify-center w-full">
           <img
-            src="/sinfondo2.png"
+            src="/mercadoLibre.jpeg"
             alt="Resultado positivo"
-            className="w-full max-w-md h-auto object-contain drop-shadow-[0_0_30px_rgba(168,85,247,0.3)]"
+            className="w-[90%] max-w-md h-auto object-contain rounded-2xl"
           />
         </div>
 

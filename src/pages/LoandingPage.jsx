@@ -44,11 +44,11 @@ export default function LandingPage() {
 
       <ImageTestimonials />
 
+        {/* Dos opciones */}
+      <PathChoice />
+
       {/* Para quien es */}
       <IdealCustomer />
-
-      {/* Dos opciones */}
-      <PathChoice />
 
       {/* Aprendizaje */}
       <Learning />

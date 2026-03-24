@@ -19,7 +19,7 @@ export default function Carrusel() {
   return (
     <section className="container mx-auto px-5 my-10 max-w-7xl">
       <h2 className=" text-2xl md:text-3xl font-extrabold text-center uppercase">
-        ¿Si estas personas pudieron, <span className="text-degradient italic">por qué tú no</span> ?
+        ¿Si estas personas pudieron, <span className="text-degradient">por qué tú no</span> ?
       </h2>
 
       <div className="">

@@ -3,7 +3,7 @@ import React from "react";
 export default function pathChoice() {
   return (
     <section className="container mx-auto px-5 my-10 max-w-7xl">
-        <h2 className="mt-2 mb-10 text-3xl md:text-4xl font-extrabold text-center uppercase">
+        <h2 className="mt-2 mb-10 text-2xl md:text-3xl font-extrabold text-center uppercase">
           Ahora tienes <span className="text-degradient">dos caminos...</span>
         </h2>
 
