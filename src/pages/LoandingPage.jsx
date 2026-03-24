@@ -53,6 +53,7 @@ export default function LandingPage() {
       {/* Aprendizaje */}
       <Learning />
 
+
       <VideoTestimonials />
 
       <FutureLife />
