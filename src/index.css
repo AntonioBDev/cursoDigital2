@@ -92,6 +92,13 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+.text-degradient2{
+  background-image: linear-gradient(to top, #3a96f8, #ae47f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 /* Utilizado en botones */
 .bg {
   background-image: linear-gradient(to right, #0462c7bf, #9810fa);
@@ -108,6 +115,8 @@ body {
     linear-gradient(#0f172a, #0f172a) padding-box, /* Color de fondo interno */
     linear-gradient(to right, #0462c7bf, #9810fa) border-box; /* El degradado */
 }
+
+
 
 .subrayado-marker {
   background-image: linear-gradient(to right, #0462c7bf, #9810fa);
