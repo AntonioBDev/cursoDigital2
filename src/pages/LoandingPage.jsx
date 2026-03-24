@@ -14,7 +14,7 @@ import FutureLife from "../components/sections/FutureLifestyle";
 import Highlight from "../components/notes/Highlight";
 import PathChoice from "../components/sections/PathChoice";
 import Global from "../components/sections/GlobalScope";
-import Sticky from "../components/sections/StickyBar"
+import Sticky from "../components/notes/StickyBar"
 //UI / Comunes
 import Video from "../components/common/Video";
 import Button from "../components/common/Button";
@@ -42,7 +42,7 @@ export default function LandingPage() {
           </motion.div>
         </div>
 
-      <VideoTestimonials />
+      <ImageTestimonials />
 
       {/* Para quien es */}
       <IdealCustomer />
@@ -53,9 +53,7 @@ export default function LandingPage() {
       {/* Aprendizaje */}
       <Learning />
 
-       <Sticky/>
-       
-      <ImageTestimonials />
+      <VideoTestimonials />
 
       <FutureLife />
 
@@ -67,6 +65,8 @@ export default function LandingPage() {
       {/* Anuncio */}
       <Highlight />
 
+       <Sticky/>
+       
       <Footer />
     </section>
   );
