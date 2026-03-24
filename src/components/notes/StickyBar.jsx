@@ -14,7 +14,7 @@ export default function StickyBar() {
             onclick="return false;"
             target='_blank'
             href="https://pay.hotmart.com/N104199019V?checkoutMode=2"
-            className=" bg text-white text-xl md:text-2xl p-2 rounded-3xl font-extrabold shadow-md hover:bg-purple-700 capitalize"
+            className=" bg text-white text-xl md:text-2xl py-2 px-4 rounded-3xl font-extrabold shadow-md hover:bg-purple-700 capitalize"
           >
             Accede ahora
           </a>
