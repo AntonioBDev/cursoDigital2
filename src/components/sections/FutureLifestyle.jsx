@@ -14,12 +14,12 @@ export default function anuncio() {
         </div>
 
         <div className="p-4 text-center lg:text-left">
-          <p className="uppercase text-2xl md:text-4xl leading-tight">
+          <h2 className="uppercase text-2xl md:text-4xl leading-tight">
             ¡Recuerda con <span className="text-degradient font-bold">Umbral</span>,
             solo estás a un paso de <span className="subrayado-marker font-bold">cambiar tu vida
             </span>
             !
-          </p>
+          </h2>
           <p className="text-lg md:text-xl text-slate-400 pt-6 font-bold">
             Deja de intercambiar horas por dinero y empieza a construir activos que te acerquen a tu libertad.
           </p>

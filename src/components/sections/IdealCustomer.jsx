@@ -3,7 +3,7 @@ import React from "react";
 export default function idealCustomer() {
   return (
     <main className="container mx-auto px-5 my-10 max-w-7xl">
-      <h2 className="mt-2 mb-10  text-2xl md:text-3xl font-extrabold text-center uppercase">
+      <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
         ¿Para qué grupo de <span className="text-degradient">personas </span> está dirigido <span className="subrayado-marker font-bold ">Umbral </span>?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

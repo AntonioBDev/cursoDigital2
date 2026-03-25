@@ -3,8 +3,8 @@ import React from "react";
 export default function GlobalScope() {
   return (
     <section className="container mx-auto px-6 relative text-center">
-      <h2 className="text-3xl md:text-4xl font-extrabold leading-tight max-w-4xl mx-auto  mb-10 uppercase">
-        Un método que puedes aplicar desde cualquier país
+      <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
+        Un <span className="text-degradient">método</span> que puedes aplicar desde cualquier país
       </h2>
 
       <div className="mt-12 max-w-2xl mx-auto">

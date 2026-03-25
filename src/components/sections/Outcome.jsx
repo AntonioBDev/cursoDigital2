@@ -13,7 +13,7 @@ export default function Resultados() {
         </div>
 
         <div>
-          <h2 className="md:my-10   text-3xl md:text-4xl font-extrabold text-center ">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
             ¿Cómo se va a ver tu vida luego de unirte a <span className="text-degradient font-bold">umbralonline?</span>
           </h2>
           <ul className="space-y-4  md:text-xl text-slate-300 pt-2 ">

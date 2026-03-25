@@ -3,14 +3,14 @@ import Card from "../notes/Card";
 import React from "react";
 
 const images = [
-  "./evidence5.jpeg",
   "./evidence.jpeg",
-  "./evidence3.jpeg",
   "./evidence2.jpeg",
+  "./evidence3.jpeg",
   "./evidence4.jpeg",
+  "./evidence5.jpeg",
   "./evidence6.jpeg",
   "./evidence7.jpeg",
-  "./evidence5.jpeg",
+  "./evidence8.jpeg",
 
 ];
 
@@ -22,7 +22,7 @@ export default function carrusel() {
       <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-[90%] -z-10
     bg-[radial-gradient(circle,_rgba(147,51,234,0.2)_0%,_transparent_70%)]"></div>
       <div className="container mx-auto px-6">
-        <h2 className="mt-2 mb-10 text-2xl md:text-3xl font-extrabold text-center uppercase">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase md:m-5">
           Seguramente ya viste algo parecido… la pregunta es, <span className="text-degradient ">¿Cuando empiezas tú?</span>
         </h2>
       </div>

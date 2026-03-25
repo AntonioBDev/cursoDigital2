@@ -12,7 +12,7 @@ const CheckoutSection = () => {
 
   return (
     <section className="container mx-auto px-5 my-10 max-w-7xl">
-      <div className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
+      <div id='checkout' className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
         
         {/* 1. Imagen Superior (Mockups) */}
         <div className="w-full bg-gradient-to-b from-slate-900 to-white p-8 flex justify-center">
@@ -69,7 +69,7 @@ const CheckoutSection = () => {
             onclick="return false;"
             target='_blank'
             href="https://pay.hotmart.com/N104199019V?checkoutMode=2"
-            className="bg-animado text-white px-8 py-5 rounded-full font-bold shadow-md hover:bg-purple-700 w-full max-w-md  text-lg md:text-xl"
+            className="bg-animado text-white px-8 py-5 rounded-full font-bold shadow-md hover:bg-purple-700 w-full max-w-md  text-sm md:text-xl"
           >
              TOCA AQUÍ Y APRENDE A <br/> GENERAR MÁS DE $100 USD AL DÍA
           </a>

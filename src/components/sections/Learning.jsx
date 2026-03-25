@@ -38,11 +38,10 @@ export default function Aprendizaje() {
 
   return (
     <section className="container mx-auto px-5 my-10 max-w-7xl">
-      <div className="text-center">
-        <h2 className="mt-2 mb-10 text-2xl md:text-3xl font-extrabold text-center uppercase">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
           Lo que <span className="text-degradient ">aprenderás</span> en el curso
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 px-6 max-w-7xl mx-auto ">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto text-center ">
           {temas.map((tema, i) => (
             <div
               key={i}
@@ -58,7 +57,6 @@ export default function Aprendizaje() {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 }

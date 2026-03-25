@@ -3,7 +3,7 @@ import React from "react";
 export default function pathChoice() {
   return (
     <section className="container mx-auto px-5 my-10 max-w-7xl">
-        <h2 className="mt-2 mb-10 text-2xl md:text-3xl font-extrabold text-center uppercase">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
           Ahora tienes <span className="text-degradient">dos caminos...</span>
         </h2>
 
@@ -33,8 +33,8 @@ export default function pathChoice() {
           </div>
 
           {/* Opción B: Tomar el curso */}
-          <div className="px-8 pt-8 bg-purple-900/20  border-purple-500 rounded-3xl relative h-full flex flex-col justify-between  border   group">
-            <div className="absolute top-0 right-0 bg-purple-500 text-xs font-bold px-3 py-1 rounded-bl-lg ">
+          <div className="px-8 pt-8 bg-purple-900/20  border-purple-500 rounded-3xl relative h-full flex flex-col justify-between  border   group overflow-hidden">
+            <div className="absolute top-0 right-0 bg-purple-500 text-xs font-bold px-3 py-1 rounded-bl-lg">
               RECOMENDADO
             </div>
             <div className="pb-6 z-10">
