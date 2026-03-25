@@ -14,6 +14,7 @@ import FutureLife from "../components/sections/FutureLifestyle";
 import Highlight from "../components/notes/Highlight";
 import PathChoice from "../components/sections/PathChoice";
 import Global from "../components/sections/GlobalScope";
+import Checkout from "../components/sections/Checkout"
 import Sticky from "../components/notes/StickyBar"
 //UI / Comunes
 import Video from "../components/common/Video";
@@ -47,24 +48,30 @@ export default function LandingPage() {
         {/* Dos opciones */}
       <PathChoice />
 
+      {/* Como puede cambiar tu vida */}
+      <Outcome />
+
+      
       {/* Para quien es */}
       <IdealCustomer />
 
-      {/* Aprendizaje */}
-      <Learning />
+      
 
 
       <VideoTestimonials />
 
       <FutureLife />
 
-      {/* Como puede cambiar tu vida */}
-      <Outcome />
+
+      {/* Aprendizaje */}
+      <Learning />
 
       <Global />
 
       {/* Anuncio */}
       <Highlight />
+
+      <Checkout/>
 
        <Sticky/>
        

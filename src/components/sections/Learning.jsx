@@ -37,8 +37,8 @@ export default function Aprendizaje() {
   ];
 
   return (
-    <section className="container mx-auto pt-5">
-      <div className="py-10 text-center">
+    <section className="container mx-auto px-5 my-10 max-w-7xl">
+      <div className="text-center">
         <h2 className="mt-2 mb-10 text-2xl md:text-3xl font-extrabold text-center uppercase">
           Lo que <span className="text-degradient ">aprenderás</span> en el curso
         </h2>

@@ -47,13 +47,22 @@ body {
 /* Anuncio bg */
 .bg-imagen {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-    url("/public/results.png");
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("/public/representacion.jpeg");
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
+  background-position: center center;
+  background-size:cover;
   height: 700px;
 }
+
+@media (min-width: 768px) {
+ .bg-imagen {
+  background-size: cover;
+  background-position: top center;
+}
+}
+
+
 
 /* Seccion de resultados */
 .img--lineGradient {
@@ -99,6 +108,20 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+.text-degradient-red-white{
+  background-image: linear-gradient(to right, #fb2c36, #f5c9cb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-degradient-green-white{
+  background-image: linear-gradient(to right, #2fad2b, #c9f5d1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 /* Utilizado en botones */
 .bg {
   background-image: linear-gradient(to right, #0462c7bf, #9810fa);
@@ -117,12 +140,39 @@ body {
 }
 
 
-
 .subrayado-marker {
   background-image: linear-gradient(to right, #0462c7bf, #9810fa);
   background-repeat: no-repeat;
   background-size: 100% 5%; /* 100% de ancho, 30% de alto */
   background-position: 0% 95%; /* Posicionado al final del texto */
   padding: 5px 4px;
+}
+
+/* transicion de color boton */
+.bg-animado {
+  background: linear-gradient(
+    145deg,
+    #7302c3 0%,
+    #7302c3 10%,
+    #8727cb 45%,
+    #cc91f4 50%, 
+    #8727cb 60%,
+    #7302c3 90%,
+    #7302c3 100%
+  );
+  background-size: 400% 400%;
+  animation:bg-transition 5s ease infinite;
+}
+
+@keyframes bg-transition {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
 }
 

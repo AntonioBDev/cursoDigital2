@@ -12,7 +12,7 @@ export default function pathChoice() {
           <div className="px-8 pt-8 bg-purple-900/20  border-purple-500 rounded-3xl relative h-full flex flex-col justify-between  border   group">
             <div className="pb-6 z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 border-b pb-4">
-                <span className="text-red-500">Opción 1:</span> Seguir
+                <span className="text-degradient-red-white">Opción 1:</span> Seguir
                 intentando generar ingresos sin un sistema claro…
               </h3>
               <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
@@ -39,11 +39,11 @@ export default function pathChoice() {
             </div>
             <div className="pb-6 z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 border-b pb-4">
-                <span className="text-green-500">Opción 2:</span> Aprende a generar ventas online con productos digitales de alta demanda en el mercado, aprovechando métodos que miles de personas ya están usando hoy.
+                <span className="text-degradient-green-white">Opción 2:</span> Aprende a generar ventas online con métodos que miles de personas ya están usando hoy.
               </h3>
               <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
                 <li>
-                  ✅ Un sistema simple donde los anuncios atraen personas
+                   <i class="fas fa-check text-green-500 text-xl"></i> Un sistema simple donde los anuncios atraen personas
                   interesadas y las conversaciones se convierten en ventas.
                 </li>
               </ul>

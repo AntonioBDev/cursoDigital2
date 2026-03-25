@@ -3,51 +3,36 @@ export default function Resultados() {
     <div className="container mx-auto pt/5 relative">
        <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-[90%] -z-10
     bg-[radial-gradient(circle,_rgba(147,51,234,0.2)_0%,_transparent_70%)]"></div>
-      <div className="grid md:grid-cols-2 gap-8 px-6 max-w-7xl mx-auto items-center py-10 my-12">
-        {/* Imagen atractiva */}
+      <div className="grid lg:grid-cols-2 gap-2 md:gap-8 px-6 max-w-7xl mx-auto items-center py-10 my-12">
         <div className="flex justify-center items-center overflow-hidden">
           <img
-            src="/results.png"
+            src="/outCome.jpeg"
             alt="Resultados del curso"
-            className="w-full rounded-2xl shadow-lg  h-80 object-cover img--lineGradient "
+            className="w-full rounded-2xl shadow-lg  h-80 object-contain img--lineGradient"
           />
         </div>
 
-        {/* Texto inspirador */}
         <div>
-          <h2 className="mt-10 mb-10    text-3xl md:text-4xl font-extrabold text-center ">
-            ¿Cómo puede cambiar tu vida cuando aprendes a generar ventas en
-            internet?
+          <h2 className="md:my-10   text-3xl md:text-4xl font-extrabold text-center ">
+            ¿Cómo se va a ver tu vida luego de unirte a <span className="text-degradient font-bold">umbralonline?</span>
           </h2>
-          <ul className="space-y-4 text-lg md:text-xl text-slate-400 pt-4 ">
-            <li className="flex items-start">
-              <span className="text-green-600 text-xl mr-3">✔</span>
-              <p>
-                {" "}
-                El primer día que pongas en marcha tu sistema de ventas es muy
-                probable que comiences a recibir mensajes de personas
-                interesadas. Recuerda:{" "}
-                <span className="">
-                  los anuncios trabajan 24/7 atrayendo clientes potenciales a tu
-                  WhatsApp.
-                </span>
+          <ul className="space-y-4  md:text-xl text-slate-300 pt-2 ">
+            <li className="flex items-center gap-5 md:gap-5">
+              <img src="/icono1.jpeg" alt="" className="w-[15%] md:w-[12%] rounded-full"/>
+              <p className="">
+               En la primera semana que saques tu anuncio, es altamente <span className="text-white font-bold uppercase">probable que vendas más de 100 dólares</span> - Recuerda: <span className="text-white font-bold">"son productos con alta demanda"</span>
               </p>
             </li>
-            <li className="flex items-start">
-              <span className="text-green-600 text-xl mr-3">✔</span>
+            <li className="flex items-center gap-5 md:gap-5">
+               <img src="/icono2.jpeg" alt="" className="w-[15%] md:w-[12%] rounded-full"/>
               <p>
-                Nunca volverás a depender únicamente de un empleo, porque habrás
-                aprendido una habilidad digital que puedes usar para generar
-                ingresos desde cualquier lugar.
+                Nunca te va a faltar el dinero en tu mesa, ya que aprenderás la habilidad de vender tus productos y vender <span className="text-white font-bold" >tu servicio de marketing a cualquier negocio y cobrar por ello.</span>
               </p>
             </li>
-            <li className="flex items-start">
-              <span className="text-green-600 text-xl mr-3">✔</span>
+            <li className="flex items-center gap-5 md:gap-5">
+               <img src="/icono3.jpeg" alt="" className="w-[15%] md:w-[12%] rounded-full"/>
               <p>
-                Podrás vender productos digitales a personas de todo el mundo,
-                incluso si hoy estás empezando desde cero. Lo que significa que
-                podrás crear una nueva fuente de ingresos utilizando solo tu
-                celular y conexión a internet.
+               Podrás vender <span className="text-white font-bold" >tu servicio a todo</span> el mundo e incluso <span className="text-white font-bold" >dar un plus a tu emprendimiento con anuncios ADS.</span> Lo que significa que podrás ganar lo mismo o más <span className="text-white font-bold">de lo que estás ganando hoy en día.</span>(Y lo mejor... Todo de forma <span className="text-white font-bold">remota</span> ).
               </p>
             </li>
           </ul>

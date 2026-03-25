@@ -6,7 +6,7 @@ export default function idealCustomer() {
       <h2 className="mt-2 mb-10  text-2xl md:text-3xl font-extrabold text-center uppercase">
         ¿Para qué grupo de <span className="text-degradient">personas </span> está dirigido <span className="subrayado-marker font-bold ">Umbral </span>?
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
 
         {/* Cart */}
         <div className="bg-slate-900 p-4 border  rounded-2xl bg-borde border-transparent hover:drop-shadow-[0_0_8px_rgba(168,85,247,1)]">
