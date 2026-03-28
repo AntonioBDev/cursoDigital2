@@ -16,8 +16,8 @@ export const zoomIn = {
 
 export default function idealCustomer() {
   return (
-    <main className="container mx-auto px-5 my-10 max-w-7xl">
-      <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
+    <main className="container mx-auto my-10 max-w-7xl">
+      <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase mb-5 mx-3">
         ¿Para qué grupo de <span className="text-degradient">personas </span>{" "}
         está dirigido{" "}
         <span className="subrayado-marker font-bold ">Umbral </span>?

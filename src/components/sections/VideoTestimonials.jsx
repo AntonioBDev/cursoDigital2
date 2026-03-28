@@ -4,7 +4,6 @@ import Tarjeta from "../notes/Tarjet";
 
 // Importar estilos de Splide
 import "@splidejs/react-splide/css";
-import { video } from "motion/react-client";
 
 const videoUrls = [
   "https://www.w3schools.com/html/movie.mp4",
@@ -28,7 +27,7 @@ export default function Carrusel() {
             type: "loop",         // Infinito
             perPage: 4,           // 4 videos en pantallas grandes
             gap: "1rem",          // Espacio entre tarjetas
-            autoplay: true,       // Se mueve solo
+            autoplay: false,       // Se mueve solo
             interval: 4000,       // Cada 4 segundos
             pauseOnHover: true,   // Se detiene si pones el mouse encima
             arrows: true,         // Activa tus flechas

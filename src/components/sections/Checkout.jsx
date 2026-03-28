@@ -11,7 +11,7 @@ const CheckoutSection = () => {
   ];
 
   return (
-    <section className="container mx-auto px-5 my-10 max-w-7xl">
+    <section className="md:container md:mx-auto md:px-5 md:my-10 md:max-w-7xl">
       <div id='checkout' className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
         
         {/* 1. Imagen Superior (Mockups) */}
@@ -24,7 +24,7 @@ const CheckoutSection = () => {
         </div>
 
         {/* 2. Contenido Principal */}
-        <div className="p-8 md:p-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="p-4 md:p-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           {/* Columna Izquierda: Lista de Beneficios */}
           <div className="space-y-6">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function pathChoice() {
+export default function PathChoice() {
   return (
     <section className="container mx-auto px-5 my-10 max-w-7xl">
         <h2 className="text-2xl md:text-3xl font-extrabold text-center uppercase my-5 mx-3">
@@ -8,7 +8,7 @@ export default function pathChoice() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Opción A: Seguir igual */}
+          {/* Opción A*/}
           <div className="px-8 pt-8 bg-purple-900/20  border-purple-500 rounded-3xl relative h-full flex flex-col justify-between  border   group">
             <div className="pb-6 z-10">
               <h3 className="text-2xl md:text-3xl font-bold mb-4 border-b pb-4">
@@ -43,7 +43,7 @@ export default function pathChoice() {
               </h3>
               <ul className="space-y-3 text-slate-400 text-lg md:text-xl">
                 <li>
-                   <i class="fas fa-check text-green-500 text-xl"></i> Un sistema simple donde los anuncios atraen personas
+                   <i className="fas fa-check text-green-500 text-xl"></i> Un sistema simple donde los anuncios atraen personas
                   interesadas y las conversaciones se convierten en ventas.
                 </li>
               </ul>

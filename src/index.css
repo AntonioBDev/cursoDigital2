@@ -47,21 +47,23 @@ body {
 /* Anuncio bg */
 .bg-imagen {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("/public/representacion.jpeg");
+    /* Gradient MUCHO MÁS SUTIL para no tapar a la persona */
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("/public/representacion.jpeg"); /* O "/representacion.jpeg" si usas Vite */
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size:cover;
-  height: 700px;
+  background-position: center; /* Centramos para ver la cara de la persona */
+  background-size: cover;
+  min-height: 600px; /* Un min-height es mejor que un height fijo */
+  height: auto;
 }
 
 @media (min-width: 768px) {
- .bg-imagen {
-  background-size: cover;
-  background-position: top center;
+  .bg-imagen {
+    background-size: cover;
+    background-position: top center; /* En desktop, prioriza la parte superior (la cara) */
+    min-height: 700px;
+  }
 }
-}
-
 
 
 /* Seccion de resultados */

@@ -54,25 +54,28 @@ const zoomIn = {
   },
 };
 
+const scrollConfig = {
+  initial: "hidden",
+  whileInView: "visible",
+  viewport: { once: true, margin: "-50px" }
+};
+
 export default function LandingPage() {
   return (
     <section className="m-0 p-0 relative">
+      <Navbar />
       <motion.div
         variants={revealVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
       >
-        <Navbar />
         <Header />
         <Video />
       </motion.div>
 
       <motion.div
-        variants={slideInLeft}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        variants={slideInLeft} 
+        {...scrollConfig}
         className="container mx-auto flex justify-center overflow-hidden p-5"
       >
         <Button />
@@ -80,9 +83,7 @@ export default function LandingPage() {
 
       <motion.div
         variants={revealVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
       >
         <ImageTestimonials />
       </motion.div>
@@ -90,9 +91,7 @@ export default function LandingPage() {
       {/* Dos opciones */}
       <motion.div
         variants={slideInLeft}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-200px" }}
+        {...scrollConfig}
         className="container mx-auto flex justify-center overflow-hidden p-5"
       >
         <PathChoice />
@@ -100,9 +99,7 @@ export default function LandingPage() {
 
       <motion.div
         variants={zoomIn}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
         className="container mx-auto flex justify-center overflow-hidden p-5"
       >
         {/* Como puede cambiar tu vida */}
@@ -111,9 +108,7 @@ export default function LandingPage() {
 
       <motion.div
         variants={slideInLeft}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
         className="container mx-auto flex justify-center overflow-hidden p-5"
       >
         {/* Para quien es */}
@@ -122,18 +117,14 @@ export default function LandingPage() {
 
       <motion.div
         variants={revealVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
       >
         <VideoTestimonials />
       </motion.div>
 
       <motion.div
         variants={revealVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
       >
         <FutureLife />
       </motion.div>
@@ -143,9 +134,7 @@ export default function LandingPage() {
 
       <motion.div
         variants={revealVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
       >
         <Global />
       </motion.div>
@@ -155,9 +144,7 @@ export default function LandingPage() {
 
       <motion.div
         variants={slideInLeft}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
         className="container mx-auto flex justify-center overflow-hidden p-5"
       >
         <Checkout />
@@ -168,9 +155,7 @@ export default function LandingPage() {
     
       <motion.div
         variants={revealVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
+        {...scrollConfig}
       >
       <Footer />
       </motion.div>
