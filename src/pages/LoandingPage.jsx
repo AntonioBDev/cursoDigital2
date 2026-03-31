@@ -63,7 +63,7 @@ const scrollConfig = {
 export default function LandingPage() {
   return (
     <section className="m-0 p-0 relative">
-      <Navbar />
+      {/* <Navbar /> */}
       <motion.div
         variants={revealVariants}
         initial="hidden"
@@ -100,7 +100,7 @@ export default function LandingPage() {
       <motion.div
         variants={zoomIn}
         {...scrollConfig}
-        className="container mx-auto flex justify-center overflow-hidden p-5"
+        className="container mx-auto flex justify-center overflow-hiddens"
       >
         {/* Como puede cambiar tu vida */}
         <Outcome />
@@ -138,7 +138,7 @@ export default function LandingPage() {
       >
         <Global />
       </motion.div>
-      
+
       {/* Anuncio */}
       <Highlight />
 
