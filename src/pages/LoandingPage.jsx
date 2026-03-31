@@ -138,7 +138,7 @@ export default function LandingPage() {
       >
         <Global />
       </motion.div>
-
+      
       {/* Anuncio */}
       <Highlight />
 

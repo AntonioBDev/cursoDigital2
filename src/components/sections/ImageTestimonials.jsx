@@ -1,17 +1,24 @@
 // import { useState, useEffect } from "react";
 import Card from "../notes/Card";
+import Testimonial from "../../assets/images/imageTestimonials/evidence.jpeg"
+import Testimonial2 from "../../assets/images/imageTestimonials/evidence2.jpeg"
+import Testimonial3 from "../../assets/images/imageTestimonials/evidence3.jpeg"
+import Testimonial4 from "../../assets/images/imageTestimonials/evidence4.jpeg"
+import Testimonial5 from "../../assets/images/imageTestimonials/evidence5.jpeg"
+import Testimonial6 from "../../assets/images/imageTestimonials/evidence6.jpeg"
+import Testimonial7 from "../../assets/images/imageTestimonials/evidence7.jpeg"
+import Testimonial8 from "../../assets/images/imageTestimonials/evidence8.jpeg"
 import React from "react";
 
 const images = [
-  "./evidence.jpeg",
-  "./evidence2.jpeg",
-  "./evidence3.jpeg",
-  "./evidence4.jpeg",
-  "./evidence5.jpeg",
-  "./evidence6.jpeg",
-  "./evidence7.jpeg",
-  "./evidence8.jpeg",
-
+  Testimonial,
+  Testimonial2,
+  Testimonial3,
+  Testimonial4,
+  Testimonial5,
+  Testimonial6,
+  Testimonial7,
+  Testimonial8,
 ];
 
 const carruselImg = [...images, ...images];
