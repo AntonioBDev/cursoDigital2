@@ -1,13 +1,17 @@
 import React from 'react';
+import img from '../../assets/images/checkout/announcement.jpeg'
 
 const CheckoutSection = () => {
   const benefits = [
-    { title: "INTELIGENCIA ARTIFICIAL DE AURA:", value: "2997 USD", isBonus: true },
-    { title: "Entrenamiento de venta de Activos Extranjeros Virales", value: "1500 USD", isBonus: true },
-    { title: "Vitrina de Activos Extranjeros Virales Validados", value: "790 USD", isBonus: true },
-    { title: "Activos extranjeros más vendidos en el mundo", value: "999 USD", isBonus: true },
-    { title: "Mentoria 1 a 1 para las 5 primeras personas", value: "4000 USD", isBonus: true },
-    { title: "Sesiones de acompañamiento en vivo", value: "497 USD", isBonus: true },
+    { title: "MÉTODO DE LOS LIBROS DIGITALES Sistema completo para generar ingresos vendiendo infoproductos ", value: "297 USD", isBonus: true },
+    { title: "BIBLIOTECA MASIVA (NOVELAS, SAGAS, HISTORIA, ETC.) Más de 10,000 libros en múltiples categorías comerciales", value: "197 USD", isBonus: true },
+    { title: "PACK DESARROLLO PERSONAL + AUDIOBOOKS 3,000 libros + 155 audiolibros", value: "97 USD", isBonus: true },
+    { title: "PACKS DE DIFERENTE GENERO (Psicología, Filosofía, Estoicismo, Fitness, Medicina, Infantil y más)", value: "290 USD", isBonus: true },
+    { title: "KIT POLÍGLOTA + RECURSOS DE INGLÉS Más de 70 idiomas + 400 recursos para aprendizaje acelerado", value: "197 USD", isBonus: true },
+    
+    { title: "AUTOMATIZACIONES + CHATBOTS PARA WHATSAPP Sistema para responder, filtrar y cerrar clientes automáticamente", value: "197 USD", isBonus: true },
+    { title: "COMUNIDAD PRIVADA + SOPORTE Acceso a grupo donde se comparte estrategia, dudas y actualizaciones", value: "150 USD", isBonus: true },
+
   ];
 
   return (
@@ -15,11 +19,11 @@ const CheckoutSection = () => {
       <div id='checkout' className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
         
         {/* 1. Imagen Superior (Mockups) */}
-        <div className="w-full bg-gradient-to-b from-slate-900 to-white p-8 flex justify-center">
+        <div className="w-full bg-gradient-to-b from-slate-900 to-white flex justify-center">
           <img 
-            src="/sinfondos.png" 
+            src={img}
             alt="Contenido del curso" 
-            className="max-w-2xl w-full h-auto drop-shadow-2xl"
+            className="w-full h-auto object-contain"
           />
         </div>
 
@@ -46,7 +50,7 @@ const CheckoutSection = () => {
             </ul>
             <div className="pt-6 border-t border-slate-200 text-center lg:text-left">
               <p className="text-slate-600 text-lg">
-                Todo esto está valorado por <span className="font-bold underline italic text-slate-900">más de 17 mil dólares</span>
+                Todo esto está valorado por <span className="font-bold underline italic text-slate-900">más de $700 USD</span>
               </p>
             </div>
           </div>
@@ -55,13 +59,13 @@ const CheckoutSection = () => {
           <div className="flex flex-col items-center text-center space-y-6">
             <div>
               <p className="text-slate-800 text-xl md:text-2xl italic">
-                Hoy te llevarás todo esto <span className="font-bold underline">por solo:</span>
+                PERO HOY PUEDES ACCEDER  <span className="font-bold underline">por solo:</span>
               </p>
               <h2 className="text-7xl md:text-8xl font-black text-slate-900 mt-2 mb-4 tracking-tighter">
-                $97 <span className="text-3xl md:text-4xl align-middle">USD</span>
+                $25 <span className="text-3xl md:text-4xl align-middle">USD</span>
               </h2>
               <p className="text-slate-700 font-medium animate-bounce">
-                ↓ Haz clic en el botón de abajo ↓
+                ↓ HAZ CLIC ABAJO Y ACCEDE AL MÉTODO ↓
               </p>
             </div>
             
@@ -69,21 +73,24 @@ const CheckoutSection = () => {
             onclick="return false;"
             target='_blank'
             href="https://pay.hotmart.com/N104199019V?checkoutMode=2"
-            className="bg-animado text-white px-8 py-5 rounded-full font-bold shadow-md hover:bg-purple-700 w-full max-w-md  text-sm md:text-xl"
+            className="bg-animado text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-purple-700 w-full max-w-md  text-sm md:text-[2rem]"
           >
-             TOCA AQUÍ Y APRENDE A <br/> GENERAR MÁS DE $100 USD AL DÍA
+            QUIERO EL MÉTODO
           </a>
 
             {/* Garantías */}
-            <div className="flex flex-wrap justify-center gap-6 pt-4">
+            <div className="flex flex-wrap justify-center gap-2 pt-4">
               <div className="flex items-center gap-2 text-[10px] md:text-xs text-slate-500 font-bold uppercase">
-                <span>🛡️ Compra Segura</span>
+                <i class="fa-solid fa-shield-halved  text-xl"></i>
+                <p> Compra <br /> Segura</p>
               </div>
               <div className="flex items-center gap-2 text-[10px] md:text-xs text-slate-500 font-bold uppercase border-x px-6 border-slate-200">
-                <span>⭐ Satisfacción Garantizada</span>
+                <i class="fa-solid fa-star  text-xl"></i>
+                <p> Satisfacción  <br />Garantizada</p>
               </div>
               <div className="flex items-center gap-2 text-[10px] md:text-xs text-slate-500 font-bold uppercase">
-                <span>🔒 Privacidad Protegida</span>
+                <i class="fa-solid fa-lock  text-xl"></i>
+                <p> Privacidad <br /> Protegida</p>
               </div>
             </div>
           </div>

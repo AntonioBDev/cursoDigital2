@@ -26,13 +26,13 @@ export default function Resultados() {
             <li className="flex items-center gap-5 md:gap-5">
                <img src="/icono2.jpeg" alt="" className="w-[15%] md:w-[12%] rounded-full"/>
               <p>
-                Nunca te va a faltar el dinero en tu mesa, ya que aprenderás la habilidad de vender tus productos y vender <span className="text-white font-bold" >tu servicio de marketing a cualquier negocio y cobrar por ello.</span>
+                Nunca te va a faltar el dinero en tu mesa, ya que aprenderás la habilidad de vender tus productos y vender <span className="text-white font-bold" >tu <span className="uppercase">servicio de marketing</span> a cualquier <span className="uppercase">negocio</span> y cobrar por ello.</span>
               </p>
             </li>
             <li className="flex items-center gap-5 md:gap-5">
                <img src="/icono3.jpeg" alt="" className="w-[15%] md:w-[12%] rounded-full"/>
               <p>
-               Podrás vender <span className="text-white font-bold" >tu servicio a todo</span> el mundo e incluso <span className="text-white font-bold" >dar un plus a tu emprendimiento con anuncios ADS.</span> Lo que significa que podrás ganar lo mismo o más <span className="text-white font-bold">de lo que estás ganando hoy en día.</span>(Y lo mejor... Todo de forma <span className="text-white font-bold">remota</span> ).
+               Podrás vender <span className="text-white font-bold" >tu <span className="uppercase">servicio</span> a todo</span> el mundo e incluso <span className="text-white font-bold" >dar un plus a tu <span className="uppercase">emprendimiento</span> con anuncios ADS.</span> Lo que significa que podrás ganar lo mismo o más <span className="text-white font-bold">de lo que estás ganando hoy en día.</span>(Y lo mejor... Todo de forma <span className="text-white font-bold uppercase">remota</span> ).
               </p>
             </li>
           </ul>
