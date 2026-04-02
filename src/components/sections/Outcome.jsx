@@ -8,6 +8,7 @@ export default function Resultados() {
           <img
             src="/outCome.jpeg"
             alt="Resultados del curso"
+            loading="lazy"
             className="w-full rounded-2xl shadow-lg  h-80 object-contain img--lineGradient"
           />
         </div>

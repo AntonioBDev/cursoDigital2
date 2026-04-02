@@ -9,6 +9,7 @@ export default function anuncio() {
           <img
             src="/ML.jpeg"
             alt="Resultado positivo"
+            loading="lazy"
             className="w-[90%] max-w-md h-auto object-contain rounded-2xl"
           />
         </div>

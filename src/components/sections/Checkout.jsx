@@ -23,6 +23,7 @@ const CheckoutSection = () => {
           <img 
             src={img}
             alt="Contenido del curso" 
+            loading="lazy"
             className="w-full h-auto object-contain"
           />
         </div>

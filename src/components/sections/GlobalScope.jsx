@@ -14,6 +14,7 @@ export default function GlobalScope() {
           <img
             src="/globalScope.jpeg"
             alt="Representación de Países"
+            loading="lazy"
             className="w-full max-w-md h-auto object-contain drop-shadow-[0_0_30px_rgba(168,85,247,0.3)]"
           />
         </div>
