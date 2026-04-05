@@ -57,34 +57,25 @@ const zoomIn = {
 const scrollConfig = {
   initial: "hidden",
   whileInView: "visible",
-  viewport: { once: true, margin: "-50px" }
+  viewport: { once: true, margin: "-50px" },
 };
 
 export default function LandingPage() {
   return (
     <section className="m-0 p-0 relative">
       {/* <Navbar /> */}
-      <motion.div
-        variants={revealVariants}
-        initial="hidden"
-        whileInView="visible"
-      >
         <Header />
         <Video />
-      </motion.div>
 
       <motion.div
-        variants={slideInLeft} 
+        variants={slideInLeft}
         {...scrollConfig}
         className="container mx-auto flex justify-center overflow-hidden p-5"
       >
         <Button />
       </motion.div>
 
-      <motion.div
-        variants={revealVariants}
-        {...scrollConfig}
-      >
+      <motion.div variants={revealVariants} {...scrollConfig}>
         <ImageTestimonials />
       </motion.div>
 
@@ -115,49 +106,30 @@ export default function LandingPage() {
         <IdealCustomer />
       </motion.div>
 
-      <motion.div
-        variants={revealVariants}
-        {...scrollConfig}
-      >
+      <motion.div variants={revealVariants} {...scrollConfig}>
         <VideoTestimonials />
       </motion.div>
 
-      <motion.div
-        variants={revealVariants}
-        {...scrollConfig}
-      >
+      <motion.div variants={revealVariants} {...scrollConfig}>
         <FutureLife />
       </motion.div>
 
       {/* Aprendizaje */}
       <Learning />
 
-      <motion.div
-        variants={revealVariants}
-        {...scrollConfig}
-      >
+      <motion.div variants={revealVariants} {...scrollConfig}>
         <Global />
       </motion.div>
 
       {/* Anuncio */}
       <Highlight />
 
-      <motion.div
-        variants={slideInLeft}
-        {...scrollConfig}
-        className="container mx-auto flex justify-center overflow-hidden p-5"
-      >
-        <Checkout />
-      </motion.div>
+      <Checkout />
 
       <Sticky />
 
-    
-      <motion.div
-        variants={revealVariants}
-        {...scrollConfig}
-      >
-      <Footer />
+      <motion.div variants={revealVariants} {...scrollConfig}>
+        <Footer />
       </motion.div>
     </section>
   );

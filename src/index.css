@@ -2,6 +2,8 @@
 
 html {
   scroll-behavior: smooth;
+
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -32,8 +34,6 @@ body {
   }
 }
 
-
-
 /* Scroll  */
 .animate-scroll {
   animation: scroll 70s linear infinite;
@@ -51,20 +51,33 @@ body {
 /* Anuncio bg */
 .bg-imagen {
   background-image:
-    /* Gradient MUCHO MÁS SUTIL para no tapar a la persona */
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
-    url("/public/representacion.jpeg"); /* O "/representacion.jpeg" si usas Vite */
+    url("/public/representacion.jpeg");
   background-repeat: no-repeat;
-  background-position: center; /* Centramos para ver la cara de la persona */
+  background-position: center;
   background-size: cover;
-  min-height: 600px; /* Un min-height es mejor que un height fijo */
+  min-height: 600px;
   height: auto;
 }
 
 @media (min-width: 768px) {
   .bg-imagen {
-    background-size: cover;
-    background-position: top center; /* En desktop, prioriza la parte superior (la cara) */
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url("/public/representacion.jpeg");
+    background-size: 100%;
+    background-position: top center;
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-imagen {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+      url("/public/representaciont.jpeg");
+    background-size: 100%;
+    background-position: center center;
     min-height: 700px;
   }
 }
@@ -97,7 +110,7 @@ body {
 @media (max-width: 768px) {
   .splide__arrow {
     display: none;
-  } /* Ocultar flechas en móvil, usar el dedo */
+  } 
 }
 
 /* texto de colores  */
@@ -108,21 +121,21 @@ body {
   color: transparent;
 }
 
-.text-degradient2{
+.text-degradient2 {
   background-image: linear-gradient(to top, #3a96f8, #ae47f7);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.text-degradient-red-white{
+.text-degradient-red-white {
   background-image: linear-gradient(to right, #fb2c36, #f5c9cb);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.text-degradient-green-white{
+.text-degradient-green-white {
   background-image: linear-gradient(to right, #2fad2b, #c9f5d1);
   -webkit-background-clip: text;
   background-clip: text;
@@ -134,17 +147,18 @@ body {
 }
 
 .bg-borde {
-  background: 
-    linear-gradient(#0f172a, #0f172a) padding-box, /* Color de fondo interno */
-    linear-gradient(to right, #0462c7bf, #9810fa) border-box; /* El degradado */
+  background:
+    linear-gradient(#0f172a, #0f172a) padding-box,
+    /* Color de fondo interno */ linear-gradient(to right, #0462c7bf, #9810fa)
+      border-box; /* El degradado */
 }
 
-.text-decoration{
-   background: 
-    linear-gradient(#0f172a, #0f172a) padding-box, /* Color de fondo interno */
-    linear-gradient(to right, #0462c7bf, #9810fa) border-box; /* El degradado */
+.text-decoration {
+  background:
+    linear-gradient(#0f172a, #0f172a) padding-box,
+    /* Color de fondo interno */ linear-gradient(to right, #0462c7bf, #9810fa)
+      border-box; /* El degradado */
 }
-
 
 .subrayado-marker {
   background-image: linear-gradient(to right, #0462c7bf, #9810fa);
@@ -161,13 +175,13 @@ body {
     #7302c3 0%,
     #7302c3 10%,
     #8727cb 45%,
-    #cc91f4 50%, 
+    #cc91f4 50%,
     #8727cb 60%,
     #7302c3 90%,
     #7302c3 100%
   );
   background-size: 400% 400%;
-  animation:bg-transition 5s ease infinite;
+  animation: bg-transition 5s ease infinite;
 }
 
 @keyframes bg-transition {
@@ -181,4 +195,3 @@ body {
     background-position: 0% 100%;
   }
 }
-

@@ -15,8 +15,8 @@ const CheckoutSection = () => {
   ];
 
   return (
-    <section className="md:container md:mx-auto md:px-5 md:my-10 md:max-w-7xl">
-      <div id='checkout' className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
+    <section className="md:container md:mx-auto px-5 md:px-5 md:my-10 md:max-w-7xl" id='checkout'>
+      <div className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
         
         {/* 1. Imagen Superior (Mockups) */}
         <div className="w-full bg-gradient-to-b from-slate-900 to-white flex justify-center">
