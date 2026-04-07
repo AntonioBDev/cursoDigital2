@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../assets/video/presentation.mp4";
+import video from "../../assets/video/intro.mp4";
 
 export default function Video() {
   return (
