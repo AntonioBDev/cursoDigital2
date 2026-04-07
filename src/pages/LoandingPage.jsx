@@ -106,9 +106,9 @@ export default function LandingPage() {
         <IdealCustomer />
       </motion.div>
 
-      <motion.div variants={revealVariants} {...scrollConfig}>
+      {/* <motion.div variants={revealVariants} {...scrollConfig}>
         <VideoTestimonials />
-      </motion.div>
+      </motion.div> */}
 
       <motion.div variants={revealVariants} {...scrollConfig}>
         <FutureLife />
