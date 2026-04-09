@@ -9,7 +9,7 @@ const CheckoutSection = () => {
     { title: "PACKS DE DIFERENTE GENERO (Psicología, Filosofía, Estoicismo, Fitness, Medicina, Infantil y más)", value: "290 USD", isBonus: true },
     { title: "KIT POLÍGLOTA + RECURSOS DE INGLÉS Más de 70 idiomas + 400 recursos para aprendizaje acelerado", value: "197 USD", isBonus: true },
     
-    { title: "AUTOMATIZACIONES + CHATBOTS PARA WHATSAPP Sistema para responder, filtrar y cerrar clientes automáticamente", value: "197 USD", isBonus: true },
+    // { title: "AUTOMATIZACIONES + CHATBOTS PARA WHATSAPP Sistema para responder, filtrar y cerrar clientes automáticamente", value: "197 USD", isBonus: true },
     { title: "COMUNIDAD PRIVADA + SOPORTE Acceso a grupo donde se comparte estrategia, dudas y actualizaciones", value: "150 USD", isBonus: true },
 
   ];
