@@ -14,6 +14,17 @@ const CheckoutSection = () => {
 
   ];
 
+  const initiateCheckout = () => {
+    if (window.fbq) {
+      window.fbq('track', 'InitiateCheckout', {
+        content_name: 'Método de los Libros Digitales',
+        content_category: 'Infoproductos',
+        value: 25.00,
+        currency: 'USD'
+      });
+    }
+  };
+
   return (
     <section className="md:container md:mx-auto px-5 md:px-5 md:my-10 md:max-w-7xl" id='checkout'>
       <div className="rounded-[2.5rem] overflow-hidden shadow-2xl flex flex-col items-center bg-slate-200">
@@ -71,9 +82,10 @@ const CheckoutSection = () => {
             </div>
             
              <a
-            onclick="return false;"
             target='_blank'
+            rel="noopener noreferrer"
             href="https://pay.hotmart.com/N104199019V?checkoutMode=2"
+            onClick={initiateCheckout}
             className="bg-animado text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-purple-700 w-full max-w-md  text-sm md:text-[2rem]"
           >
             QUIERO EL MÉTODO
