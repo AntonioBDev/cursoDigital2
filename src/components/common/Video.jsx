@@ -12,11 +12,11 @@ export default function Video() {
           playsInline
           controlsList="nodownload"
           controls
-          preload="auto" // 👈 AYUDA: Indica al navegador que empiece a descargar ya
+          preload="auto" 
           className="w-full aspect-video h-auto rounded-2xl md:rounded-3xl shadow-[0_0_40px_rgba(82,9,154,0.3)] border border-purple-500/20 object-cover"
         >
           <source src={video} type="video/mp4" />
-          Tu navegador no soporta videos.
+          Tu navegador no soporta videos..
         </video>
       </div>
     </div>
