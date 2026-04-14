@@ -7,7 +7,7 @@ export default function Video() {
       <div className="w-full max-w-[350px] md:max-w-[450px] ">
         <video
           autoPlay
-          // muted
+          muted
           loop
           playsInline
           controlsList="nodownload"
