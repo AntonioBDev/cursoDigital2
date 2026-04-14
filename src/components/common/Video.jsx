@@ -2,6 +2,8 @@ import React from "react";
 import video from "../../assets/video/intro.mp4";
 
 export default function Video() {
+  const videoSource = "https://drive.google.com/uc?export=download&id=1L7YWS49Nwujs9hKg4hrHVdcvOALnxrpw";
+
   return (
     <div className="relative mt-10 md:mt-20 mb-10 px-4 flex justify-center">
       <div className="w-full max-w-[350px] md:max-w-[450px] ">
