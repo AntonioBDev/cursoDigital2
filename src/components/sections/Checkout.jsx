@@ -3,14 +3,14 @@ import img from '../../assets/images/checkout/announcement.jpeg'
 
 const CheckoutSection = () => {
   const benefits = [
-    { title: "MÉTODO DE LOS LIBROS DIGITALES Sistema completo para generar ingresos vendiendo infoproductos ", value: "297 USD", isBonus: true },
-    { title: "BIBLIOTECA MASIVA (NOVELAS, SAGAS, HISTORIA, ETC.) Más de 10,000 libros en múltiples categorías comerciales", value: "197 USD", isBonus: true },
-    { title: "PACK DESARROLLO PERSONAL + AUDIOBOOKS 3,000 libros + 155 audiolibros", value: "97 USD", isBonus: true },
-    { title: "PACKS DE DIFERENTE GENERO (Psicología, Filosofía, Estoicismo, Fitness, Medicina, Infantil y más)", value: "290 USD", isBonus: true },
-    { title: "KIT POLÍGLOTA + RECURSOS DE INGLÉS Más de 70 idiomas + 400 recursos para aprendizaje acelerado", value: "197 USD", isBonus: true },
+    { title: "MÉTODO DE LOS LIBROS DIGITALES Sistema completo para generar ingresos vendiendo infoproductos ", value: "5,167 MX", isBonus: true },
+    { title: "BIBLIOTECA MASIVA (NOVELAS, SAGAS, HISTORIA, ETC.) Más de 10,000 libros en múltiples categorías comerciales", value: "3,427 MX", isBonus: true },
+    { title: "PACK DESARROLLO PERSONAL + AUDIOBOOKS 3,000 libros + 155 audiolibros", value: "1,687 MX", isBonus: true },
+    { title: "PACKS DE DIFERENTE GENERO (Psicología, Filosofía, Estoicismo, Fitness, Medicina, Infantil y más)", value: "5,046 MX", isBonus: true },
+    { title: "KIT POLÍGLOTA + RECURSOS DE INGLÉS Más de 70 idiomas + 400 recursos para aprendizaje acelerado", value: "3,427 MX", isBonus: true },
     
-    // { title: "AUTOMATIZACIONES + CHATBOTS PARA WHATSAPP Sistema para responder, filtrar y cerrar clientes automáticamente", value: "197 USD", isBonus: true },
-    { title: "COMUNIDAD PRIVADA + SOPORTE Acceso a grupo donde se comparte estrategia, dudas y actualizaciones", value: "150 USD", isBonus: true },
+    // { title: "AUTOMATIZACIONES + CHATBOTS PARA WHATSAPP Sistema para responder, filtrar y cerrar clientes automáticamente", value: "3,427 MX", isBonus: true },
+    { title: "COMUNIDAD PRIVADA + SOPORTE Acceso a grupo donde se comparte estrategia, dudas y actualizaciones", value: "2,610 MX", isBonus: true },
 
   ];
 
@@ -62,7 +62,7 @@ const CheckoutSection = () => {
             </ul>
             <div className="pt-6 border-t border-slate-200 text-center lg:text-left">
               <p className="text-slate-600 text-lg">
-                Todo esto está valorado por <span className="font-bold underline italic text-slate-900">más de $700 USD</span>
+                Todo esto está valorado por <span className="font-bold underline italic text-slate-900">más de $12,180 MX</span>
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const CheckoutSection = () => {
                 PERO HOY PUEDES ACCEDER  <span className="font-bold underline">por solo:</span>
               </p>
               <h2 className="text-7xl md:text-8xl font-black text-slate-900 mt-2 mb-4 tracking-tighter">
-                $25 <span className="text-3xl md:text-4xl align-middle">USD</span>
+                $299 <span className="text-3xl md:text-4xl align-middle">MX</span>
               </h2>
               <p className="text-slate-700 font-medium animate-bounce">
                 ↓ HAZ CLIC ABAJO Y ACCEDE AL MÉTODO ↓
@@ -84,7 +84,7 @@ const CheckoutSection = () => {
              <a
             target='_blank'
             rel="noopener noreferrer"
-            href="https://pay.hotmart.com/N104199019V?checkoutMode=2"
+            href="https://pay.hotmart.com/N104199019V?off=xoejfs5j"
             onClick={initiateCheckout}
             className="bg-animado text-white px-8 py-3 rounded-full font-bold shadow-md hover:bg-purple-700 w-full max-w-md  text-sm md:text-[2rem]"
           >
