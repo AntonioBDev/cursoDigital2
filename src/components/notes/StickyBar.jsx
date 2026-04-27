@@ -7,7 +7,7 @@ export default function StickyBar() {
       <div className="container mx-auto flex md:flex-row items-center justify-between gap-4 md:px-10">
         
         <div className="text-center md:text-left">
-          <p className="text-white text-xl md:text-2xl font-bold flex items-center">$<span className=' line-through'>69</span> <span className="text-degradient2  text-3xl md:text-5xl ml-2 font-extrabold"> $25</span>
+          <p className="text-white text-xl md:text-2xl font-bold flex items-center">$<span className=' line-through'>1,300</span> <span className="text-degradient2  text-3xl md:text-5xl ml-2 font-extrabold"> $299</span>
           </p>
         </div>
             <a
